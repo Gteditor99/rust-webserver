@@ -1,0 +1,19 @@
+# rust-webserver
+
+simple webserver built in Rust. The webserver serves static HTML pages and CSS files to the client. It supports GET requests and can serve multiple clients simultaneously.
+
+Dependencies
+This project requires Rust and Cargo to be installed on your machine.
+
+Installation
+To install the project, clone the repository and run the following command:
+
+`cargo run`
+The webserver will start running on http://localhost:8080.
+
+Usage
+To use the webserver, navigate to http://localhost:8080 in your web browser. The server will serve the index.html page by default.
+Index.html must be located in the same directory where the binary is
+
+License
+This project is licensed under the MIT License - see the LICENSE file for details.
